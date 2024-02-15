@@ -4,6 +4,7 @@
 name: 'yuzu-android-build'
 
 on:
+  workflow_dispatch:
   push:
     tags: [ "*" ]
 
